@@ -226,14 +226,6 @@ ALTER TABLE user
 DESC user;
 ```
 
-##### 表设计
-
-**第一范式（1NF）** 
-
-```
- telnet 127.0.0.1 6000
-```
-
 ### 测试
 
 ```
@@ -258,4 +250,3 @@ select a.id,a.name,a.state from user a inner join friend b on b.friendid = a.id 
 {"msgid":6,"id":1,"friendid":2}
 ```
 
-### 二、C++ 知识
